@@ -8,3 +8,4 @@ except:
 os.system('cls')
 totp = pyotp.TOTP('111111')
 print("\n  > Current code: " + totp.now(11111))
+clear.console()
